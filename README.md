@@ -1,7 +1,6 @@
-# Police-Dashboard
-DATA301 Group Project; Dashboard &amp; data visualisation of official police datasets in New Zealand.  
-## Finding patterns in policing data
+ # Finding patterns in policing data
 Proposed by Louise McMillan, 8/7/2020  
+DATA301 Group Project; Dashboard &amp; data visualisation of official police datasets in New Zealand. 
 
 This project is about finding patterns in the publicly available data from the New Zealand Police:
 https://www.police.govt.nz/about-us/publications-statistics/data-and-statistics/policedatanz
