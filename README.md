@@ -10,11 +10,11 @@ StatsNZ also have a wide range of datasets describing different aspects of New Z
 https://www.stats.govt.nz/all-topics/  
 
 These datasets can be combined to look for geographical and temporal patterns in crime statistics, and potentially to predict future patterns.
-Students will need to:
-•	Integrate multiple large datasets, some fine-grained and some wide-scale
-•	Plot geographical data and/or analyse time series data
-•	Carry out an exploratory analysis, choosing a subset of variables and features to report
-•	Determine which datasets need to be integrated to answer specific questions and/or make specific predictions
-•	Carry out the analyses required to answer specific questions, and display the chosen model(s) and results
+Students will need to:  
+•	Integrate multiple large datasets, some fine-grained and some wide-scale  
+•	Plot geographical data and/or analyse time series data  
+•	Carry out an exploratory analysis, choosing a subset of variables and features to report  
+•	Determine which datasets need to be integrated to answer specific questions and/or make specific predictions  
+•	Carry out the analyses required to answer specific questions, and display the chosen model(s) and results  
 •	Consider any ethical aspects when reporting the results
 
