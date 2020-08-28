@@ -278,26 +278,3 @@ The most common types of crime for youths to commit are assault, theft, and traf
 
 Assault is the most common crime for the older age bracket, whereas traffic/vehicle offences are the most common for youths. 
 
-```{r}
-
-```
-
-
-```{r}
-
-```
-
-
-```{r}
-
-```
-
-
-```{r}
-
-```
-
-
-```{r}
-
-```
