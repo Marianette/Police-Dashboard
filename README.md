@@ -16,5 +16,8 @@ Students will need to:
 •	Carry out an exploratory analysis, choosing a subset of variables and features to report  
 •	Determine which datasets need to be integrated to answer specific questions and/or make specific predictions  
 •	Carry out the analyses required to answer specific questions, and display the chosen model(s) and results  
-•	Consider any ethical aspects when reporting the results
+•	Consider any ethical aspects when reporting the results  
+  
+-----  
 
+**Datsets must be unzipped from the 'Datasets' Folder to use any of the .Rmd files in this repository.**

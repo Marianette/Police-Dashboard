@@ -1,0 +1,61 @@
+---
+title: "Assignment 3"
+author: "Usanthini Sasikumar 300451063"
+date: "24/08/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+policedata<-read.csv(file = "Policedata.csv")
+library(ggplot2)
+library(dplyr)
+library(knitr)
+
+
+str(policedata)
+summary(policedata)
+sum(is.na(policedata))
+
+```
+
+Count of Different type of crimes
+```{r}
+
+counts <- table(policedata$ANZSOC.Division)
+barplot(counts, main="Count of Different type of crimes",
+  xlab="Crime type", names.arg=c("Abduction/Harassment","Acts Cause Injury","Robbery/Extortion","Sexual Assault","Theft","Unlawful Entry:Break/Enter"))
+
+```
+
+The variables along the x-axis refer to the types of crimes committed. The naming of types have been simplified to allow easy fit onto the graph. The y-axis refers to the count of times these types of crimes occurred. Theft is the most occurred types of crime committed followed by Unlawful Entry:Break/Enter
+
+
+Count of occurrence of Territorial Authorities (area of the crime committed)
+```{r}
+
+counts <- table(policedata$Territorial.Authority)
+barplot(counts, main="Count of occurrence of Territorial Authorities",
+  xlab="Territorial Authorities", names.arg=c("Carterton","Upper Hutt","Lower Hutt","Kapiti Coast ","Porirua ","South Wairarapa ","Tararua ","Masterton ","Wellington "))
+
+```
+
+Types of Crimes that occurred all around Wellington
+```{r}
+counts <- table(policedata$ANZSOC.Division, policedata$Territorial.Authority)
+barplot(counts, main="Crime type by Territorial authority",
+xlab="Territorial Authority", col = c("red","blue","orange","green","purple","yellow"),
+names.arg=c("Carterton","Upper Hutt","Lower Hutt","Kapiti Coast ","Porirua ","South Wairarapa ","Tararua ","Masterton ","Wellington "),
+legend = c("Abduction/Harassment","Acts Cause Injury","Robbery/Extortion","Sexual Assault","Theft","Unlawful Entry:Break/Enter"))
+
+```
+
+Each of the variables along the x-axis are area of the crime committed. The naming of types have been simplified to allow easy fit onto the graph. The y-axis is the the count of times these types of crimes occurred in this areas. IT seems like there aren't any link or pattern between the type of the crime and the area of the crime committed. Most number of all different types of crimes being committed is in wellington followed by next by Lower Hutt district.
+
+
+
+
